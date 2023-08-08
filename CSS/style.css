@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+}
+
+.container>div {
+    flex-grow: 1;
+    border: 2px solid black;
+    min-height: 300px;
+    width: 33.33%;
+    margin: 20px;
+    padding: 15px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.reselt {
+    border: 2px solid black;
+    min-height: 100px;
+    width: 97%;
+    margin: 0 auto 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+button {
+    margin-top: 10px;
+    background-color: grey;
+    color: white;
+    font-size: 30px;
+    border: 1px solid grey;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid grey;
+}
+
+.forms {
+    display: none;
+}
+
+.new__forms {
+    display: block;
+    font-size: 20px;
+    max-width: 20%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 3px solid green;
+    background-color: #8fc691;
+}
+
+table {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.input__name.error {
+    border: 2px solid red;
+}
+
+.button-categories {
+    margin-top: 21%;
+    border-radius: 5px;
+}
+
+.result-categories-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #8fc691;
+    margin: 5px 0;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.result-categories-info>button {
+    margin: 0;
+    border-radius: 10px;
+    background-color: rgb(89, 231, 0);
+    margin-right: 5px;
+}
+
+.result-categories-info>button:nth-last-child(1) {
+    background-color: red;
+}
+
+.result-categories-info>button:nth-last-child(1):hover {
+    background-color: rgb(102, 0, 0);
+}
+
+.result-categories-info>button:hover {
+    margin: 0;
+    border-radius: 10px;
+    background-color: rgb(27, 102, 0);
+}
+
+.result-categories-info>* {
+    margin-left: 10px;
+    margin-right: 10px;
+}

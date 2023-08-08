@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>HW_18 Savin Vova</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="categories">
+            <div class="creation-categories" style="display: block;"></div>
+            <div class="result-categories" style="display: none;"></div>
+            <button class="button-categories" style="display: block;">МОЇ ЗАМОВЛЕННЯ</button>
+            <button class="button-categories-shopping" style="display: none;">ПРОДОВЖИТИ ПОКУПКУ</button>
+        </div>
+        <div class="products"></div>
+        <div class="details"></div>
+    </div>
+    <div class="reselt">
+        <form name="myForm" class="forms">
+            <p>ПІБ покупця</p>
+            <div class="form-control"><input type="text" name="youName" id="input__name"></div>
+            <p>Місто:</p>
+            <select id="select__city">
+                <option value="city">Оберіть місто</option>
+                <option value="Ky">Київ</option>
+                <option value="Lv">Львів</option>
+                <option value="Ter">Тернопіль</option>
+            </select>
+            <p>Склад нової пошти:</p>
+            <select id="select__department">
+                <option value="department">Виберіть відділення</option>
+                <option value="Ky">Київ відділення 1</option>
+                <option value="Lv">Львів відділення 1</option>
+                <option value="Ter">Тернопіль відділення 1</option>
+            </select>
+            <p>Спосіб оплати:</p>
+            <p>
+                <input type="radio" name="payment" value="Готівка"> Готівка
+                <input type="radio" name="payment" value="Карта">Карта
+            </p>
+            <p>Кількість продукції:</p>
+            <div class="form-control"><input type="number" name="numberOfProducts" id="input__num"></div>
+            <p>Коментар:</p>
+            <textarea name="text" id="text" cols="30" rows="10" placeholder="Коментар"></textarea>
+            <br>
+            <button type="button" class="form__button"> Відправити форму</button>
+        </form>
+        <table class="table"></table>
+    </div>
+
+
+
+    <script src="/JS/data.js"></script>
+    <script src="/JS/app.js"></script>
+
+</body>
+
+</html>
