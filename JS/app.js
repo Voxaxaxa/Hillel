@@ -1,6 +1,7 @@
 let arrayInfo = [];
 
 console.log("Commit_1")
+console.log("Commit_2")
 
 function loadLocalStorageData() {
     if (localStorage.getItem("key")) {
