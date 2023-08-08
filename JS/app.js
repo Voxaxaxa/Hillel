@@ -1,5 +1,7 @@
 let arrayInfo = [];
 
+console.log("Commit_1")
+
 function loadLocalStorageData() {
     if (localStorage.getItem("key")) {
         arrayInfo = JSON.parse(localStorage.getItem("key"));
